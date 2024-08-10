@@ -1,0 +1,592 @@
+/*UNIVERSAL SELECTORS*/
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+/*TYPE SELECTORS*/
+/*navigation bar*/
+nav {
+	font-family: 'Nunito', sans-serif;
+	background-color: #17252A;
+	border-bottom: 2px solid #DEF2F1;
+}
+
+/*webpage body*/
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: #3AAFA9;
+	color: #FFFFFF; 
+}
+
+/*footer color*/
+footer {
+	color: #17252A;
+}
+
+
+/*CLASS SELECTORS*/
+/* navbar left section*/
+.navleft {
+	width: 45vw;
+	display: flex;
+	align-items: center;
+}
+
+/*navbar website logo*/
+.logo1 {
+	height: 60px;
+	width: 60px;
+	margin-left: 10px;
+}
+
+/* developer portfolio text size */
+.website-name {
+	font-size: 2vmax;
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	flex-wrap: nowrap;
+}
+
+/* hamburger button background color */
+.navbar-toggler {
+	background-color: #FFFFFF;
+}
+
+/* changes burger button icon to X when collapsed */
+button[aria-expanded="true"] > .navbar-toggler-icon {
+	  display: none;
+}
+
+/* changes burger button icon to --- when hide */
+button[aria-expanded="false"] > .close {
+	  display: none;
+}
+
+ /*navbar items*/
+.nav-item {
+	text-align: center;
+	padding-left: 10px;
+}
+
+.nav-item:hover {
+	transform: scale(1.2);
+}
+
+/*navbar links*/
+.nav-link {
+	font-size: 18px;
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+
+/*hovering effect for navbar links*/
+.nav-link:hover {
+	color: #3AAFA9;
+}
+
+/*landing page buttons*/
+.btn1 {
+	background-color: #17252A;
+	color: #FEFFFF;
+	width: 180px;
+	border-radius: 10px;
+	border: 2px solid #FEFFFF;
+}
+
+/*projects & other projects section buttons */
+.btn2 {
+	background-color: #17252A;
+	color: #FEFFFF;
+	width: 100px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;	
+}
+
+/*contact form buttons*/
+.btn3 {
+	background-color: #3AAFA9;
+	color: #17252A;
+	width: 100px;
+	margin-bottom: 10px;
+	border: transparent;
+	margin: 5px;
+	padding: 5px;	
+}
+
+/*subscribe button*/
+.btn4 {
+	background-color: #3AAFA9;
+	color: #17252A;
+	width: 100px;
+	margin-bottom: 10px;
+	border: transparent;
+	padding: 5px;
+}
+
+/*landing page section background image*/
+.fixed-bg1 {
+	background-image: url(designs/webdev2.png);
+}
+
+/*tools section background image*/
+.fixed-bg2 {
+	/* background-image: url(./designs/webdev1.png); */
+	background-image: linear-gradient(#17252A, #3AAFA9, #17252A);
+}
+
+/*landing page*/
+.landing-page {
+	min-height: 90vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+/*Hi, I'm Eric text style*/
+.landing-text1 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: bolder;
+	font-size: 100px;
+	text-shadow: 5px 5px #17252A;
+	white-space: normal;
+}
+
+/*A Full Stack Web Developer text style*/
+.landing-text2 {
+	font-weight: bold;
+	text-shadow: 5px 5px #17252A;
+	display: inline-flex;
+}
+
+/*hovering effect for a full stack web developer text*/
+.landing-text2:hover {
+	background-color: #3AAFA9;
+	border-radius: 5px;
+	color: #17252A;
+	text-shadow: 5px 5px #FEFFFF;
+}
+
+/*need a new website? text style*/
+.landing-text3 {
+	font-weight: bolder;
+	font-size: 30px;
+	text-shadow: 5px 3px #17252A;
+	white-space: normal;
+}
+
+/* web design statement*/
+.statement {
+	background-color: #FEFFFF;
+	color: #17252A;
+	min-height: 60vh;
+}
+
+/*statement title text*/
+.statement-title {
+	text-align: center;
+	font-weight: bold;
+}
+
+/*statement main content*/
+.statement-main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.tool-card {
+	max-width: 400px;
+	max-height: 400px;
+}
+
+.tool-img {
+	max-width: 300px;
+	max-height: 300px;
+}
+
+
+
+/*statement card body*/
+.card-body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*statement card text*/
+.card-text {
+	border-top: 3px solid #3AAFA9;
+	text-align: center;
+	color: #17252A;
+}
+
+/*about me title text*/
+.abt-title {
+	text-align: center;
+	font-weight: bold;
+}
+
+/*about me row*/
+.abt-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+/*about me column*/
+.abt-col {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*developer image sizing*/
+.dev-img {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	border: 4px solid;
+}
+
+/*developer name text*/
+.abt-name {
+	font-family: 'Archivo Black', sans-serif;
+	font-weight: bolder;
+}
+
+/*developer title texts*/
+.dev-title {
+	font-family: 'Nunito', sans-serif;
+	font-weight: bolder;
+	color: #17252A;
+}
+
+/*about me text*/
+.abt-text {
+	text-align: justify;
+	font-weight: bold;
+}
+
+/*projects title text*/
+.proj-title {
+	text-align: center;
+	font-weight: bold;
+}
+
+/*project row*/
+.proj-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+/*project column*/
+.proj-img-col {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*soft corners for project images*/
+.proj-img {
+	border-radius: 30px;
+}
+
+/*hovering effect for project images*/
+.proj-img:hover {
+	box-shadow: 5px 5px #3AAFA9;
+}
+
+/*project texts*/
+.proj-details {
+	border-left: 5px solid #3AAFA9;
+	border-right: 5px solid #3AAFA9;
+	background-color: #DEF2F1;
+	border-radius: 15px;
+}
+
+/*hovering effect for project details*/
+.proj-details:hover {
+	transform: scale(1.05);
+}
+
+/*Particleus and Liknayan title texts*/
+.oth-proj-subtitle1 {
+	color: #17252A;
+	text-align: center;
+	font-weight: bold;	
+}
+
+/*Educ Mobile Apps title text*/
+.oth-proj-subtitle2 {
+	color: #17252A;
+	font-weight: bold;	
+}
+
+/*app row*/
+.app {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+/*app column*/
+.app-col {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;	
+}
+
+/*other project images */
+.oth-proj-img {
+	border-radius: 20px;
+	height: 350px;
+	width: 200px;
+	display: block;
+}
+
+/*middle border in other projects section*/
+.oth-proj-details {
+	border-left: 3px solid #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/*background color of text in other projects section*/
+.oth-proj-details:hover {
+	background-image: linear-gradient(to right, #DEF2F1, transparent);
+}
+
+/*other projects text details*/
+.oth-proj-text {
+	color: #17252A;
+	text-align: justify;
+	font-weight: bold;	
+}
+
+.tools-title {
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+.core-tools-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/*align-items: center;*/
+	text-align: center;
+}
+
+/*Let's Get Social title text*/
+.social-title {
+	text-align: center;
+	font-weight: bold;
+}
+
+/*social row*/
+.social-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+/*find me section*/
+.find-me {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 5px;
+}
+
+/*logo inside the find me section*/
+.logo2 {
+	height: 100px;
+	width: 100px;
+}
+
+/*hovering effect of logo inside find me section*/
+.logo2:hover {
+	transform: scale(1.1);
+}
+
+/*gmap sizing*/
+.map {
+	height: 50vh;
+	width: 100vw;
+	padding: 5px;
+}
+
+/*prefooter text*/
+.prefooter-text {
+	font-weight: bold;
+}
+
+/*prefooter icons*/
+.prefooter-icons {
+	height: 25px;
+	width: 25px;
+	padding-bottom: 3px;
+	display: inline;
+}
+
+/*hovering effect on prefooter-icons*/
+.prefooter-icons:hover {
+	transform: scale(1.5);
+}
+
+
+/*ID SELECTORS*/
+
+/*navbar icons*/
+#nav-icons {
+	height: 25px;
+	width: 25px;
+	padding-bottom: 3px;
+}
+
+/*typewriting and blinking cursor effects in landing page section*/
+#typed-out {
+	overflow: hidden;
+	border-right: 5px solid #17252A;
+	font-size: 5vw;
+	white-space: nowrap;
+	animation: 
+		typing 3s steps(45, end) forwards,
+		blink .8s infinite;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes typing {
+	from { width: 0% }
+	to { width: 100% }
+}
+
+@keyframes blink {
+	from { border-color: transparent; }
+	to { border-color: white; }
+}
+
+/*statement details*/
+#statement-details {
+	background-color: #DEF2F1;
+	border: transparent;
+	border-radius: 30px;
+	min-height: 60vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*middle border in About Me section*/
+#abt-border {
+	border-left: 3px solid #17252A;
+}
+
+/*projects section*/
+#projects {
+	background-color: #FFFFFF;
+	color: #17252A;
+	min-height: 60vh;
+}
+
+/*prefooter section*/
+#pre-footer {
+	padding: 1rem;
+	background-color: #17252A;
+	color: #0B0B45;
+}
+
+/*CHILD SELECTORS*/
+
+.project-details > h3 {
+	font-weight: bolder;
+	color: #3AAFA9;
+}
+
+#pre-footer > div {
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+}
+
+#pre-footer > div > * {
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+
+/*MULTIPLE SELECTORS*/
+
+/*parallax scrolling effects*/
+.fixed-bg1, .fixed-bg2 {
+	min-height: 70vh;
+	background-attachment: fixed;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*hovering effect for projects & other projects buttons*/
+.btn1:hover, .btn2:hover {
+	color: #3AAFA9;
+  	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*hovering effect for contact form buttons*/
+.btn3:hover, .btn4:hover {
+	color: #FFFFFF;
+}
+
+/*sets a background color for map and form sections*/
+.find-me, .contact-me {
+	background-color: #17252A;
+	border-radius: 20px;
+}
+
+/*find me and contact me title texts*/
+.find-me-title, .contact-me-title {
+	text-align: center;
+	font-weight: bold;
+}
+
+/*text color for map, contact form, and pre-footer sections*/
+.find-me-title, .contact-me-title, .form-group, .prefooter-text {
+	color: #3AAFA9;
+}
+
+/*inline display of nav icons and nav links*/
+#nav-icons, .nav-link {
+	display: inline;
+}
+
+/*logo and website name inline block display */
+.logo1, .website-name {
+	display: inline-block;
+}
+
+/*section names text shadows*/
+.statement > h1, #projects > h1 {
+	text-shadow: 5px 5px #3AAFA9;
+}
+
+/*text-shadows for the subheadings*/
+#other-projects > h1, #about-me > h1, #tools > h1, #contact > h1 {
+	text-shadow: 5px 5px #17252A;	
+}

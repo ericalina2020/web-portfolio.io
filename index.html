@@ -1,0 +1,584 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="utf-8">
+        <!-- Mobile Responsive Meta Tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap Link -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
+
+        <!-- Google Fonts Link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito:wght@400;900&display=swap" rel="stylesheet">
+
+		<!-- External CSS Link -->
+		<link rel="stylesheet" href="./index.css">
+
+		<!-- Favicon Link -->
+        <link rel="shortcut icon" type="image/png" href="designs/favicon.png">
+
+        <title>Developer Portfolio</title>
+    </head>
+    <body>
+        <!-- Navbar Start -->
+        <nav class="navbar sticky-top navbar-expand-md p-1">
+            <div class="navleft">
+                <a class="navbar-brand" href="#">
+                    <!-- website logo -->
+                    <img class="logo1 m-2" src="designs/website-logo.png" alt="website-logo">
+                </a>
+                <!-- website title -->
+                <div class="website-name p-1">
+                    DEVELOPER PORTFOLIO
+                </div>
+            </div>
+
+            <!-- burger button -->
+            <button class="navbar-toggler navbar-light m-1"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#myNavbarMenu"
+                    aria-controls="myNavbarMenu"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="mx-2 my-1 close">X</span>
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links Start -->
+            <div class="collapse navbar-collapse" id="myNavbarMenu">
+                <ul class="navbar-nav mr-auto">
+                    <!-- Home -->
+                    <li class="nav-item active mx-1">
+                        <img id="nav-icons" src="designs/home.png" alt="home icon">
+                        <a class="nav-link" href="#">
+                            HOME
+                        </a>
+                    </li>
+
+                    <!-- Projects -->
+                    <li class="nav-item mx-1">
+                       <img id="nav-icons" src="designs/projects.png" alt="projects icon">
+                        <a class="nav-link" href="#projects">
+                            PROJECTS
+                        </a>                            
+                    </li>
+
+                    <!-- Tools -->
+                    <li class="nav-item mx-1">
+                       <img id="nav-icons" src="designs/tools.png" alt="tools icon">
+                        <a class="nav-link" href="#tools">
+                            TOOLS
+                        </a>                            
+                    </li>
+
+                    <!-- About -->
+                    <li class="nav-item mx-1">
+                        <img id="nav-icons" src="designs/about.png" alt="about icon">
+                        <a class="nav-link" href="#about-me">
+                            ABOUT
+                        </a>                            
+                    </li>
+
+                    <!-- Contact -->
+                    <li class="nav-item mx-1">
+                       <img id="nav-icons" src="designs/contact.png" alt="contact icon">
+                        <a class="nav-link" href="#contact">
+                            CONTACT
+                        </a>                            
+                    </li>
+                </ul>
+            </div>
+            <!-- Navbar Links End -->
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Landing Page Start -->
+        <div class="fixed-bg1 container-fluid">
+            <div class="landing-page row py-3">
+                <div class="mx-3 py-2">
+                    <h1 class="landing-text1 mx-4">Hi! I'm Eric,</h1>
+                    <span id="typed-out" class="landing-text2 ml-4 p-2">
+                        A Full-Stack Web Developer.
+                    </span>
+                    <p class="landing-text3 ml-4">Need a new website? Let's make your ideas come alive.</p>
+                    <a href="https://drive.google.com/file/d/1x3rViSllbKfZg9i2YwPUzLdhbsdhPshP/view?usp=sharing" target="_blank">
+                        <button class="btn1 ml-4 mb-1 px-2 py-1">View CV</button>
+                    </a>
+                    <a href="#projects">
+                        <button class="btn1 mt-1 ml-4 p-1">View Projects</button>
+                    </a>
+                </div>        
+            </div>
+        </div>
+        <!-- Landing Page End -->
+
+        <!-- Web Design Taglines Start -->
+        <div class="statement container-fluid pt-5 pb-5">
+            <h1 class="statement-title pt-5 pb-4">WEB DESIGN AT ITS FINEST</h1>
+            <div class="statement-main row my-3">
+
+                <!-- Card 1 Start -->
+                <div class="col-md-4">
+                    <div id="statement-details" class="card m-3 p-5">
+                        <img class="img-card-top img-fluid w-100 h-100" src="designs/webdev4.png" alt="web-graphic">
+                        <div class="card-body">
+                            <h4 class="card-text py-2">Creating high-quality and engaging web design for your business...</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 1 End -->
+ 
+                <!-- Card 2 Start -->
+                <div class="col-md-4">
+                    <div id="statement-details" class="card m-3 p-5">
+                        <img class="img-card-top img-fluid w-100 h-100" src="designs/webdev5.png" alt="web-graphic">
+                        <div class="card-body">
+                            <h4 class="card-text py-2">Making each detail match your vision, a web design that feels right...</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 End -->
+
+                <!-- Card 3 Start -->
+                <div class="col-md-4">
+                    <div id="statement-details" class="card m-3 p-5">
+                        <img class="img-card-top img-fluid w-100 h-100" src="designs/webdev3.png" alt="web-graphic">
+                        <div class="card-body">
+                            <h4 class="card-text py-2">Enhancing your online presence with unique designs that inspire and captivate...</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 End -->
+
+            </div>
+        </div>
+        <!-- Web Design Taglines End -->
+
+        <!-- Projects Start -->
+        <div id="projects" class="container-fluid pt-5 pb-5">
+            <h1 class="proj-title pt-5 pb-4">PROJECTS</h1>
+
+            <!-- website 1 Start -->
+            <div class="proj-row row">
+                <div class="proj-img-col col-md-5 order-1 order-md-1">
+                    <img class="proj-img img-fluid w-100 h-100 m-5" src="websites/website1.png" alt="Fantastic Voyages">
+                </div>
+                <div class="proj-details order-2 order-md-2 col-md-5 mx-3">
+                    <h3 class="text-center font-weight-bold py-1 my-3">FANTASTIC VOYAGES</h3>
+                    <p class="text-justify font-weight-bold">A traveling agency that opens the door to an incredible vacation through professionally assisted trip planning. Fantastic Voyages is an ultimate trip planners!</p>
+                    <div class="d-flex justify-content-center my-3">
+                        <span>
+                             <a href="#">
+                                <button class="btn2">View</button>
+                            </a>
+                        </span> 
+                    </div>     
+                </div>
+            </div>
+            <!-- website 1 End -->
+
+            <!-- website 2 Start -->
+            <div class="proj-row row">
+                <div class="proj-details order-2 order-md-1 col-md-5 mx-3">
+                    <h3 class="text-center font-weight-bold py-1 my-3">BROADWOOD REALTY</h3>
+                    <p class="text-justify font-weight-bold">A real estate company and a life-changer in terms of providing an opportunity of home that matches one's dream.</p>
+                    <div class="d-flex justify-content-center my-3">
+                        <span>
+                             <a href="#">
+                                <button class="btn2">View</button>
+                            </a>
+                        </span> 
+                    </div>   
+                </div>
+                <div class="proj-img-col col-md-5 order-1 order-md-2">
+                    <img class="proj-img img-fluid w-100 h-100 m-5" src="websites/website2.png" alt="Broadwood Realty">
+                </div>
+            </div>
+            <!-- website 2 End -->
+
+            <!-- website 3 Start -->
+            <div class="proj-row row">
+                <div class="proj-img-col col-md-5">
+                    <img class="proj-img img-fluid w-100 h-100 m-5" src="websites/website3.png" alt="Broadlife Insurance">
+                </div>
+                <div class="proj-details col-md-5 mx-3">
+                    <h3 class="text-center font-weight-bold py-1 my-3">BROADLIFE INSURANCE</h3>
+                    <p class="text-justify font-weight-bold">A life insurance company that cares for you and your family. It is a kind of financial protection that everybody wants in cases of unfortunate events. Well insured, well lived. Get insured now!</p>
+                    <div class="d-flex justify-content-center my-3">
+                        <span>
+                             <a href="#">
+                                <button class="btn2">View</button>
+                            </a>
+                        </span> 
+                    </div>   
+                </div>
+            </div>
+            <!-- website 3 End -->
+
+            <!-- website 4 Start -->
+            <div class="proj-row row">
+                <div class="proj-details order-2 order-md-1 col-md-5 mx-3">
+                    <h3 class="text-center font-weight-bold py-1 my-3">RANK HIGHER DIGITAL</h3>
+                    <p class="text-justify font-weight-bold">A digital marketing agency that gives powerful ideas and accelerate business sales. Rank Higher Digital is truly the powerhouse for digital marketing solutions.</p>
+                    <div class="d-flex justify-content-center my-3">
+                        <span>
+                             <a href="#">
+                                <button class="btn2">View</button>
+                            </a>
+                        </span> 
+                    </div>   
+                </div>
+                <div class="proj-img-col col-md-5 order-1 order-md-2">
+                    <img class="proj-img img-fluid w-100 h-100 m-5" src="websites/website4.png" alt="Rank Higher Digital">
+                </div>
+            </div>
+            <!-- website 4 End -->
+
+            <!-- website 5 Start -->
+            <div class="proj-row row">
+                <div class="proj-img-col col-md-5">
+                    <img class="proj-img img-fluid w-100 h-100 m-5" src="websites/website5.png" alt="Urban Wear">
+                </div>
+                <div class="proj-details col-md-5 mx-3">
+                    <h3 class="text-center font-weight-bold py-1 my-3">URBAN WEAR</h3>
+                    <p class="text-justify font-weight-bold">A clothing company for upgrading your fashion taste. True urban style never dies. Explore your style. Be exclusive, be divine, be yourself.</p>
+                    <div class="d-flex justify-content-center my-3">
+                        <span>
+                             <a href="#">
+                                <button class="btn2">View</button>
+                            </a>
+                        </span> 
+                    </div>                    
+                </div>
+            </div>
+            <!-- website 5 End -->
+        </div>
+        <!-- Projects End -->
+
+        <!-- Other Projects Start -->
+        <div id="other-projects" class="container pt-5 pb-5">
+            <h1 class="text-center font-weight-bold pt-5 pb-4">OTHER PROJECTS</h1>
+            <h3 class="oth-proj-subtitle1 pb-2">(EDUCATIONAL MOBILE APPLICATION PROJECTS)</h3>
+
+            <!-- app1 Start -->
+            <div class="app row my-3">
+                <!-- app1 carousel Start -->
+                <div class="app-col col-md-5">
+                    <div id="app-carousel1" class="carousel site" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#app-carousel1" data-slide-to="0" class="active"></li>
+                            <li data-target="#app-carousel1" data-slide-to="1"></li>
+                            <li data-target="#app-carousel1" data-slide-to="2"></li>
+                            <li data-target="#app-carousel1" data-slide-to="3"></li>
+                            <li data-target="#app-carousel1" data-slide-to="4"></li>                        
+                        </ol>
+                        <!-- carousel inner Start -->
+                        <div class="carousel-inner rounded">
+                            <!-- 1st image slide -->
+                            <div class="carousel-item active">
+                                <img class="oth-proj-img" src="app1/s1.png" alt="Screenshot 1">
+                            </div>
+
+                            <!-- 2nd image slide -->
+                            <div class="carousel-item">
+                                <img class="oth-proj-img" src="app1/s2.png" alt="Screenshot 2">
+                            </div>
+
+                            <!-- 3rd image slide -->
+                            <div class="carousel-item">
+                                <img class="oth-proj-img" src="app1/s3.png" alt="Screenshot 3">
+                            </div>
+
+                            <!-- 4th image slide -->
+                            <div class="carousel-item">
+                                <img class="oth-proj-img" src="app1/s4.png" alt="Screenshot 4">
+                            </div> 
+
+                            <!-- 5th image slide -->
+                            <div class="carousel-item">
+                                <img class="oth-proj-img" src="app1/s5.png" alt="Screenshot 5">
+                            </div>                          
+                        </div>
+                        <!-- carousel inner End-->
+                    </div>
+                </div>
+                <!-- app1 carousel End -->
+
+                <div class="oth-proj-details col-md-5 mx-3 my-5">
+                    <h3 class="oth-proj-subtitle2 py-1">PARTICLEUS</h3>
+                    <p class="oth-proj-text">This mobile application aims to provide basic knowledge of elementary particles to all learners around the world (especially kids). It contains simple games and graphics which acquaint one with some of the elementary particles by playing the memory and matching game, and quark combinations through naming baryons and mesons. Also, familiarize yourself with electron-positron annihilation.</p>
+                    <span>
+                         <a href="https://play.google.com/store/apps/details?id=appinventor.ai_ericdoria_alina.Particleus" target="_blank">
+                            <button class="btn2">See more</button>
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <!-- app1 End -->
+
+            <!-- app2 Start -->
+            <div class="app row my-3">
+                <!-- app2 carousel Start -->
+                <div class="app-col col-md-5">
+                    <div id="app-carousel2" class="carousel site" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#app-carousel2" data-slide-to="0" class="active"></li>
+                            <li data-target="#app-carousel2" data-slide-to="1"></li>
+                            <li data-target="#app-carousel2" data-slide-to="2"></li>
+                            <li data-target="#app-carousel2" data-slide-to="3"></li>
+                            <li data-target="#app-carousel2" data-slide-to="4"></li>                        
+                        </ol>
+                        <!-- carousel inner Start -->
+                        <div class="carousel-inner rounded">
+                            <!-- 1st image slide -->
+                            <div class="carousel-item active">
+                                <img class="oth-proj-img" src="app2/s1.png" alt="Screenshot 1">
+                            </div>
+
+                            <!-- 2nd image slide -->
+                            <div class="carousel-item">
+                                <img class="oth-proj-img" src="app2/s2.png" alt="Screenshot 2">
+                            </div>
+
+                            <!-- 3rd image slide -->
+                            <div class="carousel-item">
+                                <img class="oth-proj-img" src="app2/s3.png" alt="Screenshot 3">
+                            </div>
+
+                            <!-- 4th image slide -->
+                            <div class="carousel-item">
+                                <img class="oth-proj-img" src="app2/s4.png" alt="Screenshot 4">
+                            </div> 
+
+                            <!-- 5th image slide -->
+                            <div class="carousel-item">
+                                <img class="oth-proj-img" src="app2/s5.png" alt="Screenshot 5">
+                            </div>                          
+                        </div>
+                        <!-- carousel inner End-->
+                    </div>
+                </div>
+                <!-- app2 carousel End -->
+
+                <div class="oth-proj-details col-md-5 mx-3 my-5">
+                    <h3 class="oth-proj-subtitle2 py-1">LIKNAYAN</h3>
+                    <p class="oth-proj-text">Liknayan ("Liknayan" - a native Tagalog translation of "Physics", from the root words: "likas" + "hanayan") is an educational app for Physics learning. This app aims to provide a mobile learning experience for Grade 10 learners in Physics through digital copies of Self-Learning Modules (SLMs). The SLMs were derived from the Department of Education Region V - Division of Camarines Sur. Liknayan includes a Physics AI Quiz (with LeoWiz, an AI Quizzerbot) which tests the user's knowledge of the subject. In addition, this app provides an AI note that enables users to write notes either through speech recognition or manual typing.
+                    </p>
+                    <span>
+                         <a href="https://play.google.com/store/apps/details?id=appinventor.ai_ericdoria_alina.Liknayan" target="_blank">
+                            <button class="btn2">See more</button>
+                        </a>
+                    </span>                    
+                </div>
+            </div>
+            <!-- app2 End -->
+        </div>
+        <!-- Other Projects End -->
+
+        <!-- About Me Start -->
+        <div id="about-me" class="container pt-5 pb-5">
+            <h1 class="abt-title pt-5 pb-4">ABOUT THE DEVELOPER</h1>
+            <div class="abt-row row">
+                <div class="abt-col col-md-5">
+                    <img class="dev-img my-5" src="prof_photo/eric_professional_photo.png" alt="eric's photo">
+                </div>
+
+                <div id="abt-border" class="col-md-5 mx-3">
+                    <h1 class="abt-name my-1">ERIC D. ALINA, LPT</h1>
+                    <h4 class="dev-title">Full-Stack Web Developer</h4>
+                    <h4 class="dev-title">Mobile App Developer</h4>
+                    <p class="abt-text">
+                        I'm a Licensed Professional Teacher currently pursuing the degree Master of Arts in Physics Education at Bicol University Graduate School. I create and design e-portfolios and websites for e-commerce and businesses. In school, I develop Android-based mobile apps using the open-source MIT App Inventor for educational purposes. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- About Me End -->
+
+        <!-- Tools Start -->
+        <div id="tools" class="fixed-bg2 container-fluid pt-5 pb-5">
+            <!-- Core Tools Start -->
+            <h1 class="tools-title pt-5 pb-4">CORE TOOLS</h1>
+
+            <div class="statement-main row my-3">
+
+                <!-- HTML Card Start -->
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <div id="statement-details" class="card tool-card my-3">
+                        <img src="devtools/logo-html5.png" class="tool-img card-img-top img-fluid" alt="HTML5 logo">
+                        <div class="card-body">
+                          <h4 class="card-text text-justify p-2">HTML (HyperText Markup Language) is a standard markup language as well as the structure for creating web pages.</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- HTML Card End -->
+
+                <!-- CSS Card Start -->
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <div id="statement-details" class="card tool-card my-3">
+                        <img src="devtools/logo-css3.png" class="tool-img card-img-top img-fluid" alt="CSS3 logo">
+                        <div class="card-body">
+                          <h4 class="card-text text-justify p-2">CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- CSS Card End -->
+
+                <!-- JS Card Start -->
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <div id="statement-details" class="card tool-card my-3">
+                        <img src="devtools/logo-javascript.png" class="tool-img card-img-top img-fluid" alt="CSS3 logo">
+                        <div class="card-body">
+                          <h4 class="card-text text-justify p-2">JavaScript is a scripting or programming language that implements complex features on web pages.</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- JS Card End -->
+
+            </div>
+
+            <!-- Other Tools Section Start -->
+            <h1 class="tools-title pt-5 pb-4">OTHER TOOLS</h1>
+            <div class="row text-center">
+                <div class="col-12">
+                    <img class="tool img-fluid" src="devtools/logo-mongodb.png"/>
+                    <img class="tool img-fluid" src="devtools/logo-nodejs.png"/>
+                    <img class="tool img-fluid" src="devtools/logo-expressjs.png"/>
+                    <img class="tool img-fluid" src="devtools/logo-react.png"/>
+                    <img class="tool img-fluid" src="devtools/logo-heroku.png"/>
+                </div>
+                <div class="col-12 mt-3">
+                    <img class="tool img-fluid" src="devtools/logo-git.png"/>
+                    <img class="tool img-fluid" src="devtools/logo-sublime-text-3.png"/>
+                    <img class="tool img-fluid" src="devtools/logo-postman.png"/>
+                    <img class="tool img-fluid" src="devtools/logo-gitlab-ci-cd.png"/>
+                </div>
+            </div>
+            <!-- Other Tools Section End -->
+        </div>
+        <!-- Tools End -->    
+
+        <!-- map and form Start -->
+        <div id="contact" class="container pt-5 pb-5">
+            <h1 class="social-title pt-5 pb-4">LET'S GET SOCIAL!</h1>
+            <div class="social-row row">
+                <!-- map Start -->
+                <div class="find-me col-md-5 m-4 p-3 d-flex flex-column align-items-center">
+                    <h3 class="find-me-title pt-2 pb-4">
+                        FIND ME
+                    </h3>
+                    <iframe class="map img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31045.347649562915!2d123.2661234652464!3d13.432837466557107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a19aeae7555cbb%3A0x323c04c882cb91fa!2sBalaogan%2C%20Bula%2C%20Camarines%20Sur!5e0!3m2!1sen!2sph!4v1646280408441!5m2!1sen!2sph" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                    <h4 class="text-center py-3">"Leading the way in website design."</h4>
+                    <img class="logo2 pt-1" src="./designs/website-logo.png" alt="website-logo">
+                </div>
+                <!-- map End -->
+ 
+                <!-- contact Start -->
+                <div class="contact-me col-md-5 m-4 py-4">
+                    <h3 class="contact-me-title pb-4">
+                        CONTACT ME
+                    </h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="full-name">Full Name</label>
+                            <input id="full-name" class="form-control" type="text" name="fullname" placeholder="John Doe" required>
+                        </div>                      
+                        <div class="form-group">
+                            <label for="txt-email">Email Address</label>
+                            <input id="txt-email" class="form-control" type="email" name="email" placeholder="name@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactNum">Contact Number</label>
+                            <input id="contactNum" class="form-control" type="tel" name="contact-number" placeholder="+00000000000" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="txt-email">Concern</label>
+                            <select id="txt-select" class="form-control" name="concernSelect">
+                                <option>Quotation</option>
+                                <option>Appointment</option>
+                                <option>Follow Up</option>
+                                <option>Support</option>
+                                <option>General Inquiries</option>
+                            </select>
+                        </div>                                      
+                        <div class="form-group">
+                            <label for="txt-message">Message</label>
+                            <textarea id="txt-message" class="form-control" spellcheck="true" rows="5" required></textarea>
+                        </div>
+                        <button class="btn3 rounded" type="submit" data-toggle="modal" data-target="#form-modal">Send Email</button>
+                        <button type="reset" class="btn3 rounded">Reset</button>
+                    </form>
+                </div>
+                <!-- contact End -->
+            </div>
+        </div>
+        <!-- map & form End -->  
+
+        <!-- Modal Start-->
+        <div class="modal fade" id="form-modal" tabindex="-1" aria-labelledby="form-ModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-dark" id="form-ModalLabel">Thank you for contacting me!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-dark">
+                         Your message was sent successfully. Please wait for my response on the email you provided.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn2" data-dismiss="modal">Close
+                        </button>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <!-- Modal End -->
+
+        <!-- Pre-footer Start -->
+        <section id="pre-footer">
+            <div class="col">
+                <h4 class="prefooter-text">Follow</h4>
+                <a href="https://www.facebook.com/eric.alina.90/" target="_blank"><img class="prefooter-icons m-3" src="designs/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/eric.alina.90/" target="_blank"><img class="prefooter-icons m-3" src="designs/instagram.png" alt="instagram"></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"><img class="prefooter-icons m-3" src="designs/twitter.png" alt="twitter"></a>
+                <a href="https://www.google.com/intl/fil/gmail/about/" target="_blank"><img class="prefooter-icons m-3" src="designs/email.png" alt="email"></a>
+                <a href="https://www.linkedin.com/in/eric-doria-alina/" target="_blank"><img class="prefooter-icons m-3" src="designs/linked-in.png" alt="linked in"></a>
+            </div>
+            <div class="col-md-6 text-white">
+                <h4 class="prefooter-text">Contact</h4>
+                <p>09099621737 (TNT)</p>
+                <p>eric.alina2020@gmail.com</p>
+            </div>
+            <div class="col">
+                <h4 class="prefooter-text">Subscribe</h4>
+                <form>
+                    <input class="px-1" type="email" name="subscribe" placeholder="name@example.com" required>
+                    <button class="btn4 rounded my-2" type="submit">Subscribe</button>
+                </form>
+            </div>         
+        </section>
+        <!-- Pre-footer End -->
+
+        <!-- Footer Start -->
+        <footer class="text-center">
+            <span>Terms of Service | Privacy Policy | &copy; 2024 Eric D. Alina. All Rights Reserved.</span>
+        </footer>
+        <!-- Footer End -->
+
+        <!-- Bootstrap Script -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+        <!-- End of Bootstrap Script -->
+
+    </body>
+</html>
